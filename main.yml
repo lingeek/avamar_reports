@@ -1,5 +1,5 @@
 ---
 - hosts: '{{ target }}'
-  gather_facts: true
+  gather_facts: false
   roles:
     - ans_role_avamar_reports
